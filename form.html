@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Form Mahasiswa</title>
+</head>
+<body>
+
+    <h3>Form Mahasiswa</h3>
+    <form>
+        
+        <fieldset>
+            <legend>Data Mahasiswa</legend>
+            <p>
+                <label>Nama</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 
+                <input type="text" name="nama">
+            </p>
+            <p>
+                <label>NPM</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 
+                <input type="text" name="npm">
+            </p>
+            <p>
+                <label>Kelas</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 
+                <select name="kelas">
+                    <option value="-">-</option>
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                    <option value="C">C</option>
+                </select>
+            </p>
+            <p>
+                <label>Jenis Kelamin</label> &nbsp;&nbsp;&nbsp;: 
+                <input type="radio" name="jenis_kelamin" value="Pria"> Pria
+                <input type="radio" name="jenis_kelamin" value="Wanita"> Wanita
+            </p>
+        </fieldset>
+
+        
+        <fieldset>
+            <legend>Tempat Tinggal Mahasiswa</legend>
+            <p>
+                <label>Alamat</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 
+                <textarea name="alamat" rows="4" cols="30"></textarea>
+            </p>
+            <p>
+                <label>Kecamatan</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 
+                <input type="text" name="kecamatan">
+            </p>
+            <p>
+                <label>Kabupaten/Kotamadya</label> : 
+                <input type="text" name="kotamadya">
+            </p>
+            <p>
+                <label>Provinsi</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 
+                <input type="text" name="provinsi">
+            </p>
+            <p>
+                <label>Kode Pos</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 
+                <input type="text" name="kode_pos">
+            </p>
+        </fieldset>
+
+        
+        <fieldset>
+            <legend>Lain-lainnya</legend>
+            <p>
+                <label>Bahasa Pemrograman</label> : 
+                <input type="checkbox" name="bahasa" value="C/C++"> C/C++
+                <input type="checkbox" name="bahasa" value="Go Lang"> Go Lang
+                <input type="checkbox" name="bahasa" value="Python"> Python
+                <input type="checkbox" name="bahasa" value="Lainnya"> Lainnya<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="checkbox" name="bahasa" value="PHP"> PHP
+                <input type="checkbox" name="bahasa" value="Javascript"> Javascript
+                <input type="checkbox" name="bahasa" value="Ruby"> Ruby
+            </p>
+            <p>
+                <label>Kegiatan</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 
+                <input type="checkbox" name="kegiatan" value="Organisasi Kemahasiswaan"> Organisasi Kemahasiswaan
+                <input type="checkbox" name="kegiatan" value="Bidang Olahraga"> Bidang Olahraga
+                <input type="checkbox" name="kegiatan" value="Lainnya"> Lainnya<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="checkbox" name="kegiatan" value="Organisasi di Luar Kampus"> Organisasi di Luar Kampus
+                <input type="checkbox" name="kegiatan" value="Bidang Seni"> Bidang Seni
+            </p>
+        </fieldset>
+
+        
+        <p>
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+        </p>
+    </form>
+
+</body>
+</html>
