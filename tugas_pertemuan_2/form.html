@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Form Mahasiswa</title>
+</head>
+<body>
+
+    <h3>Form Mahasiswa</h3>
+    <form>
+        <!-- Fieldset 1: Data Mahasiswa -->
+        <fieldset>
+            <legend>Data Mahasiswa</legend>
+            Nama <br>
+            <input type="text" name="nama"><br><br>
+            NPM <br>
+            <input type="text" name="npm"><br><br>
+            Kelas <br>
+            <select name="kelas">
+                <option value="-">-</option>
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+            </select><br><br>
+            Jenis Kelamin <br>
+            <input type="radio" name="jenis_kelamin" value="Pria"> Pria<br>
+            <input type="radio" name="jenis_kelamin" value="Wanita"> Wanita
+        </fieldset>
+
+        <br>
+
+        <!-- Fieldset 2: Tempat Tinggal Mahasiswa -->
+        <fieldset>
+            <legend>Tempat Tinggal Mahasiswa</legend>
+            Alamat <br>
+            <textarea name="alamat" rows="4" cols="30"></textarea><br><br>
+            Kecamatan <br>
+            <input type="text" name="kecamatan"><br><br>
+            Kabupaten/Kotamadya <br>
+            <input type="text" name="kotamadya"><br><br>
+            Provinsi <br>
+            <input type="text" name="provinsi"><br><br>
+            Kode Pos <br>
+            <input type="text" name="kode_pos">
+        </fieldset>
+
+        <br>
+
+        <!-- Fieldset 3: Lain-lainnya -->
+        <fieldset>
+            <legend>Lain-lainnya</legend>
+            Bahasa Pemrograman <br>
+            <input type="checkbox" name="bahasa" value="C/C++"> C/C++<br>
+            <input type="checkbox" name="bahasa" value="Go Lang"> Go Lang<br>
+            <input type="checkbox" name="bahasa" value="Python"> Python<br>
+            <input type="checkbox" name="bahasa" value="Lainnya"> Lainnya<br>
+            <input type="checkbox" name="bahasa" value="PHP"> PHP<br>
+            <input type="checkbox" name="bahasa" value="Javascript"> Javascript<br>
+            <input type="checkbox" name="bahasa" value="Ruby"> Ruby<br><br>
+            Kegiatan <br>
+            <input type="checkbox" name="kegiatan" value="Organisasi Kemahasiswaan"> Organisasi Kemahasiswaan<br>
+            <input type="checkbox" name="kegiatan" value="Bidang Olahraga"> Bidang Olahraga<br>
+            <input type="checkbox" name="kegiatan" value="Lainnya"> Lainnya<br>
+            <input type="checkbox" name="kegiatan" value="Organisasi di Luar Kampus"> Organisasi di Luar Kampus<br>
+            <input type="checkbox" name="kegiatan" value="Bidang Seni"> Bidang Seni
+        </fieldset>
+
+        <br>
+
+        <!-- Tombol Aksi -->
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+</html>
